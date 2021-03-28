@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Hello World</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Hello World</h1>
+		<p>Belajar HTML<p>
+	</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<body>
+		<h1>Operasi JS</h1>
+		<p id="demo"></p>
+		<script >
+			var x = 5;
+			var y = 2;
+			var z = x + y;
+			document.getElementById("demo").innerHTML = z;
+		</script>
+	</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<script>
+		function convert(degree){
+			if(degree == "C"){
+				F = document.getElementById('c').value * 9 / 5 +32;
+				document.getElementById('f').value = Math.round(F);
+			} else{
+				C = (document.getElementById('f').value -32) * 5 /9;
+				document.getElementById('c').value = Math.round(C);
+ 			}
+		}
+	</script>
+</head>
+<body>
+	<p>Masukkan angka pada masukan berikut:</p>
+	<input id="c" onkeyup="convert('C')"> derajat Celcius <br> equals <br>
+	<input id="f" onkeyup="convert('F')"> derajat Fahrenheit 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Color Changing</title>
+</head>
+<body style="text-align: center;">
+
+		<h1>
+			Mengubah Warna
+		</h1>
+		<input type="text" name="keyword" id = "inputWarna" autofocus placeholder="Masukkan warna" autocomplete="off"><br><br>
+	
+		<button onclick = "ubah()">Ubah Warna!</button>  
+	
+
+		<script type="text/javascript">
+		
+		function ubah() { 
+			var warna = document.getElementById('inputWarna').value;
+			changeColor(warna); 
+		}		
+
+		function changeColor(color) { 
+
+				document.body.style.background = color; 
+		} 
+		 
+		</script>
+	
+</body>
+</html>
