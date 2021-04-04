@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	
+	<title>Daftar.in-Login</title>
+</head>
+<body>
+	<div class="login-box1">
+		<h2>Selamat Datang</h2>
+			<a href="login.html">
+				<button class="kembali">
+					Kembali
+				</button>
+			</a>
+			<div class ="button-box">
+				<div id="t-btn"></div>
+					<button class="btn" onclick="login()">
+						Masuk
+					</button>
+					<button class="btn" onclick="register()">
+						Registrasi
+					</button>
+			</div>
+			
+		<form action="../datasekolah.html" method="post"id="login" class="input"><h4>Silahkan isi data login anda: </h4>
+			<label>Email</label><br>
+			<input type="text" class="t-input" placeholder="Isi Email" required><br>
+
+			<label>Password</label><br>
+			<input type="Password" class="t-input"
+			placeholder="Isi Password" required><br>
+
+			<h5><a href="">Lupa Password?</a></h5>
+			<button type="submit" class="submit-button">
+				Login
+			</button>
+		</form>
+		<form action=""method="post" id="register" class="input">
+			<h4>Silahkan isi data register: </h4>
+			<label>Nama Lengkap</label><br>
+			<input type="text" class="t-input" placeholder="Isi Nama Lengkap" required><br>
+
+			<label>Asal Sekolah</label><br>
+			<input type="text" class="t-input"
+			placeholder="Isi Asal Sekolah" required><br>
+
+			<label>Email</label><br>
+			<input type="text" class="t-input"
+			placeholder="Isi Email" required><br>
+
+			<label>Password</label><br>
+			<input type="password" class="t-input"
+			placeholder="Isi Password" required><br>
+
+			<input type="checkbox" class="check-box" required="">
+			<span>Menyetujui Persyaratan? </span>
+			<button type="submit" class="submit-button">
+				Daftar
+			</button>
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		var x=document.getElementById('login');
+		var y=document.getElementById('register');
+		var z=document.getElementById('t-btn');
+		function register(){
+			x.style.left="-400px";
+			y.style.left="50px";
+			z.style.left="110px";
+		}
+		function login(){
+			x.style.left="50px";
+			y.style.left="450px";
+			z.style.left="0px";
+		}
+	</script>
+
+
+</body>
+</html>

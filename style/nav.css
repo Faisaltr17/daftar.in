@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;;
+	font-family: 'Montserrat', sans-serif;
+}
+nav{
+	background: white;
+	border-bottom: 5px solid black;
+	padding: -10px 40px 10px 70px; 
+	margin-left: -10px;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul div.items{
+	padding: 0 0px;
+	
+}
+nav ul div.items label{
+	text-decoration: none;
+	font-size: 16px;
+	padding-left:10px; 
+
+}
+
+nav ul .search-icon{
+	height: 40px;
+	width: 240px;
+	display: flex;
+	background: white;
+	border: 1px black solid;
+	border-radius: 5px;
+	margin-left: 650px;
+	margin-right: 10px;
+}
+
+nav ul .search-icon input{
+	height: 100%;
+	width:200px;
+	border: 0.5px black solid;
+	outline: none;
+	padding: 0 10px;
+	color:black;
+	font-size: 16px;
+	border-radius: 0px 5px 5px 0px;
+}
+nav ul .search-icon .icon{
+	height: 100%;
+	width: 40px;
+	line-height: 25px;
+	text-align: center;
+	border: none;
+	border-radius: 5px 0px 0px 5px;
+	cursor: pointer;
+}
+nav ul .search-icon .icon span{
+	color: black;
+	font-size: 18px;
+}
+
+nav ul li a{
+	border-color: black;
+	width: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 10%;
+	padding:5px; 
+}
+nav ul li a:hover{
+	background: linear-gradient(to right, aquamarine,forestgreen);
+}
+
+@media screen and (max-width: 1052px){
+	nav{
+		padding: 10px 40px 10px 0px;
+	}
+	nav ul li.logo{
+		display: none;
+	}
+	nav ul div.items{
+		flex: 4;	
+	}
+}

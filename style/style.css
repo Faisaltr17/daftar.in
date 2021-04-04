@@ -1,0 +1,166 @@
+body{
+	background-image: url(../images-src1/bglogin.png);
+	font-family: sans-serif;
+	background-size: cover;
+}
+
+/*LOGIN*/
+.login-box{
+	height: 380px;
+	width: 380px;
+	background: linear-gradient(to top,white, lightcyan);
+	margin:50px auto;
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+	border:5px solid black;
+}
+.login-box1{
+	height: 550px;
+	width: 380px;
+	background: linear-gradient(to top,white, lightcyan);
+	margin:50px auto;
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+	border: 5px solid black;
+}
+.login-box h2{
+	margin: 25px auto;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.login-box h4{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.login-box1 h2{
+	margin: 25px auto;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.login-box1 h4{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.kembali{
+	width: 20%;
+	cursor: pointer;
+	margin-left: 25px;
+	color: solid black;
+	background: transparent;
+	border-radius: 10%;
+
+}
+.kembali:hover{
+	background-color: #009970;
+	color: white;
+}
+.input-role a{
+	text-decoration: none;
+}
+.role{
+	width: 60%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	margin: 25px auto;
+	background: #009970;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	color: white;
+	
+}
+.button-box{
+	text-align: center;
+	width: 250px;
+	margin:35px auto;
+	position: relative;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+.btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative; 
+}
+#t-btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 140px;
+	height: 35px;
+	background: lightgreen;
+	border-radius: 30px;
+	transition: .5s;
+	
+}
+.t-btn:hover{
+	background-color: #009970;
+}
+.input{
+	top: 140px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	margin: 10px auto;
+}
+.input1{
+	top: 100px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	margin: -25px auto;
+}
+.t-input{
+	width: 100%
+	padding:10px 0;
+	margin:5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent; 
+}
+.submit-button{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #009970;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	color: white;
+}
+.check-box{
+	margin:30px 10px 30px 0;
+}
+span{
+	font-size:12px;
+	bottom:68px;
+	position: absolute;
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}
+
+
